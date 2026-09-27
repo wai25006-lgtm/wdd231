@@ -278,3 +278,95 @@ svg {
   background-color: var(--bs-black);
   fill: white;
 }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.media-card {
+  border: 1px solid var(--bs-grey-3);
+  background-color: var(--bs-white);
+}
+
+.media-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.media-card__content {
+  padding: 1rem;
+}
+
+.media-card h2 {
+  margin-top: 0;
+}
+
+.media-card a {
+  text-decoration: none;
+}
+
+.media-card p {
+  margin-bottom: 0;
+}
+
+#park-footer {
+  background-image: url("https://byui-cse.github.io/wdd231-course/images/topo_pattern.png");
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact h3 {
+  margin-top: 0;
+}
+
+.contact h4 {
+  margin-bottom: 0.25rem;
+}
+
+.contact p {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .info {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .intro {
+    padding: 3rem 2rem;
+  }
+
+  .media-card img {
+    height: 250px;
+  }
+}
