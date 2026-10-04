@@ -1,0 +1,13 @@
+@media screen and (min-width: 700px) {
+  .info {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .intro {
+    padding: 3rem 2rem;
+  }
+
+  .media-card img {
+    height: 250px;
+  }
+}
