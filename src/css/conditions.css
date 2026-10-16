@@ -1,0 +1,33 @@
+
+#main {
+  padding: 2rem;
+}
+
+.alerts > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alert {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.alert svg {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+details {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
