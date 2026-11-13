@@ -51,13 +51,10 @@ export function footerTemplate(info) {
 
 
 export function alertTemplate(alert) {
-  let alertType = "";
-
-  if (alert.category === "Park Closure") {
-    alertType = "closure";
-  } else {
-    alertType = alert.category.toLowerCase();
-  }
+  const alertType =
+    alert.category === "Park Closure"
+      ? "closure"
+      : alert.category.toLowerCase();
 
   return `
     <li class="alert">
